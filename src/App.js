@@ -2,8 +2,13 @@ import './App.css';
 import _ from 'lodash';
 import React, {useEffect, useState} from "react";
 import Card from './Card';
+
+
 function App() {
   const [taskData, setTaskData] = useState([]);
+  const [rng, setRng] = useState(new Math.seedrandom(Math.random()));
+
+
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(process.env.PUBLIC_URL + '/values.csv');
