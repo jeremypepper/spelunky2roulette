@@ -6,7 +6,7 @@ function Card(props) {
   const onClick = () => {
     setActive(!isActive);
   }
-  const className = props.isActive || isActive ? "active" : "notactive";
+  const className = "card " + (props.isActive || isActive ? "active" : "notactive");
   return <div className={className} onClick={onClick}>{props.children}</div>
 }
 
