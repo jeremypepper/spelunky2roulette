@@ -18,9 +18,6 @@ function App() {
     window.history.replaceState(null, null, "?seedinput=" + seedinputFromUrl)
     setSeed(seedinputFromUrl);
   }
-  // const onSubmit = (event) => {
-  //   setSeed(input.current.value);
-  // }
 
   const onchange = (event) => {
     setSeed(event.target.value)
