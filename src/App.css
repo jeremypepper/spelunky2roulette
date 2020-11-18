@@ -31,4 +31,14 @@
   align-items: center;
   font-size: 1.5em;
   padding: 10px;
+  background-color: white;
+  transition: background-color;
+}
+
+.active {
+  background-color: #7a6296;
+}
+
+.notactive {
+  background-color: white;
 }

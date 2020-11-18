@@ -1,7 +1,7 @@
 import './App.css';
 import _ from 'lodash';
 import React, {useEffect, useState} from "react";
-
+import Card from './Card';
 function App() {
   const [taskData, setTaskData] = useState([]);
   useEffect(() => {
@@ -43,11 +43,11 @@ function App() {
   const usedIndexes = [...usedIndexesSet];
     for (let i = 0; i < usedIndexes.length; i++) {
       if (i === BINGO_CENTER_INDEX) {
-        bingoCards.push(<div>free</div>);
+        bingoCards.push(<Card isActive={true}>free</Card>);
       } else {
         const usedIndex = usedIndexes[i];
         const task = taskData[usedIndex]
-        bingoCards.push(<div>{task.task}</div>)
+        bingoCards.push(<Card>{task.task}</Card>)
       }
     }
   }
