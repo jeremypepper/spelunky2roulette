@@ -6,7 +6,7 @@ function App() {
   const [taskData, setTaskData] = useState([]);
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('%PUBLIC_URL%/values.csv');
+      const response = await fetch(process.env.PUBLIC_URL + '/values.csv');
       const textData = await response.text();
       const fetchedData = _.filter(_.map(textData.split('\n'), line => {
         if (line.trim()) {
