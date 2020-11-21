@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spelunky2roulette/static/css/main.7fea7a64.chunk.css",
+    "main.js": "/spelunky2roulette/static/js/main.e6e86a43.chunk.js",
+    "main.js.map": "/spelunky2roulette/static/js/main.e6e86a43.chunk.js.map",
+    "runtime-main.js": "/spelunky2roulette/static/js/runtime-main.e67a3c42.js",
+    "runtime-main.js.map": "/spelunky2roulette/static/js/runtime-main.e67a3c42.js.map",
+    "static/js/2.d7bb4da4.chunk.js": "/spelunky2roulette/static/js/2.d7bb4da4.chunk.js",
+    "static/js/2.d7bb4da4.chunk.js.map": "/spelunky2roulette/static/js/2.d7bb4da4.chunk.js.map",
+    "static/js/3.eb4d7ca6.chunk.js": "/spelunky2roulette/static/js/3.eb4d7ca6.chunk.js",
+    "static/js/3.eb4d7ca6.chunk.js.map": "/spelunky2roulette/static/js/3.eb4d7ca6.chunk.js.map",
+    "index.html": "/spelunky2roulette/index.html",
+    "static/css/main.7fea7a64.chunk.css.map": "/spelunky2roulette/static/css/main.7fea7a64.chunk.css.map",
+    "static/js/2.d7bb4da4.chunk.js.LICENSE.txt": "/spelunky2roulette/static/js/2.d7bb4da4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e67a3c42.js",
+    "static/js/2.d7bb4da4.chunk.js",
+    "static/css/main.7fea7a64.chunk.css",
+    "static/js/main.e6e86a43.chunk.js"
+  ]
+}
