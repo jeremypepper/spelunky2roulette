@@ -1,5 +1,5 @@
 {
-  "name": "spelunky-2-bingo",
+  "name": "spelunky2roulette",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://jeremypepper.github.io/spelunky2bingo"
+  "homepage": "https://jeremypepper.github.io/spelunky2roulette"
 }

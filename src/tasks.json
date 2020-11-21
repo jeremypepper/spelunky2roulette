@@ -1,0 +1,158 @@
+{
+  "tasks": {
+    "general": [
+      {
+        "name": "Blow up every altar you see"
+      },
+      {
+        "name": "Never pick up a weapon"
+      },
+      {
+        "name": "Open every coffin you see"
+      },
+      {
+        "name": "Every bomb used must be cooked and thrown"
+      },
+      {
+        "name": "Curse yourself"
+      },
+      {
+        "name": "Never rescue a pet"
+      }
+    ],
+    "dwelling": [
+      {
+        "name": "Give Yang his turkeys"
+      },
+      {
+        "name": "Kill Yang"
+      },
+      {
+        "name": "Kill a mole"
+      },
+      {
+        "name": "Kill a mole with a lizard or a lizard with a mole"
+      },
+      {
+        "name": "Visit the Gist shop"
+      },
+      {
+        "name": "Steal from the shop"
+      },
+      {
+        "name": "Kill a shopkeeper"
+      },
+      {
+        "name": "Pick up the first rock you see and carry it into World 2"
+      }
+    ],
+    "volcana": [
+      {
+        "name": "Jump on every robot you see"
+      },
+      {
+        "name": "Kill Tun"
+      },
+      {
+        "name": "Tame every pet you see"
+      },
+      {
+        "name": "Rescue Van Horsing"
+      },
+      {
+        "name": "Kill Van Horsing"
+      },
+      {
+        "name": "Release all Helping Hands in Vlad's castle"
+      },
+      {
+        "name": "Ride a falling platform into lava and escape"
+      },
+      {
+        "name": "Take the golden idol and redeem for gold"
+      },
+      {
+        "name": "Visit Vlad's Castle without getting the clover"
+      }
+    ],
+    "jungle": [
+      {
+        "name": "Never kill a witch doctor"
+      },
+      {
+        "name": "Don't save any children"
+      },
+      {
+        "name": "Save all children"
+      },
+      {
+        "name": "Kill a big spider with your feet"
+      },
+      {
+        "name": "Whip a mosquito"
+      }
+    ],
+    "tidepool": [
+      {
+        "name": "Kill a Pangxie"
+      },
+      {
+        "name": "Kill Humphead"
+      },
+      {
+        "name": "Complete the Stars Challenge"
+      },
+      {
+        "name": "Visit Abzu"
+      },
+      {
+        "name": "Kill an enemy by throwing a fish at them"
+      },
+      {
+        "name": "Take a Golden Idol and redeem it"
+      }
+    ],
+    "temple": [
+      {
+        "name": "visit Van Horsing"
+      },
+      {
+        "name": "Kill Anubis"
+      },
+      {
+        "name": "Visit the City of Gold"
+      }
+    ],
+    "icecaves": [
+      {
+        "name": "Kill the Yeti King and Queen"
+      },
+      {
+        "name": "Skip the wet fur area"
+      },
+      {
+        "name": "Kill an enemy with the mech suit"
+      },
+      {
+        "name": "Throw a Yeti into a UFO"
+      }
+    ],
+    "neobabylon": [
+      {
+        "name": "Never use a bomb"
+      },
+      {
+        "name": "Never kill a Lamassu"
+      },
+      {
+        "name": "Kill an enemy with an ushabti"
+      },
+      {
+        "name": "Ride a mount"
+      },
+      {
+        "name": "Throw an olmite into a UFO"
+      }
+    ]
+  }
+}
