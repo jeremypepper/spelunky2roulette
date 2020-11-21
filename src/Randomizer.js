@@ -11,6 +11,11 @@ export default function Randomizer(props) {
     setSeed(newSeed);
   }
 
+  const onchange = (event) => {
+    setSeed(event.target.value)
+  }
+
+  const input = React.createRef();
 
   const world2 = rng.quick() >= 0.5 ? "jungle" : "volcana";
   const world4 = rng.quick() >= 0.5 ? "tidepool" : "temple";
@@ -37,6 +42,12 @@ export default function Randomizer(props) {
     {/*<div>rng is {rng.quick()}</div>*/}
     {/*<div>path is {path.join(",")}</div>*/}
     <div>{pathElements}</div>
-    <button onClick={onUseRandomSeed}>Use a Random Seed</button>
+
+    <section>
+      <form>
+        <label>Use a set seed: </label><input name="seedinput" ref={input} value={seed} onChange={onchange}/>
+      </form>
+      <button onClick={onUseRandomSeed}>Use a Random Seed</button>
+    </section>
   </div>
 }
